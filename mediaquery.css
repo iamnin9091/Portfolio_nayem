@@ -1,0 +1,18 @@
+@media (max-width: 768px) {
+    #desktop-nav{
+        visibility: hidden;
+    }
+    .hamburger-nav{
+        display: flex;
+        visibility: visible;
+    }
+}
+@media screen and (max-width:1400px){
+    #profile{
+        height: 83vh;
+        margin-bottom: 6rem;
+    }
+    .about-containers{
+        flex-wrap: wrap;
+    }
+}
